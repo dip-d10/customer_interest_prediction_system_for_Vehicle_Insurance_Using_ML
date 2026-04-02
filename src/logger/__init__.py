@@ -5,8 +5,8 @@ from from_root import from_root
 from datetime import datetime
 
 # Constants for log configuration
-LOG_DIR = 'logs'
-LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
+LOG_DIR = 'logs'  #creating the log folder/directory
+LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"    #creating the log file
 MAX_LOG_SIZE = 5 * 1024 * 1024  # 5 MB
 BACKUP_COUNT = 3  # Number of backup log files to keep
 
